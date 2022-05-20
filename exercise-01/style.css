@@ -1,0 +1,74 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** 
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+/** 
+ * Just some styling to make the card visible.
+ * Feel free to change this!
+ */
+
+.card {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.image {
+margin: 15px;
+border-radius: 3px;
+ border: 2px solid #5e4caf;
+}
+
+h1 {
+  padding: 10px 10px 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 22px 22px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+button {
+  background-color: #5e4caf; 
+  border: none;
+  border-radius: 25px;
+  margin: 0px 70px 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #daa3ff; 
+  color: white;
+}
